@@ -1,0 +1,7 @@
+manager:
+  svc:
+    type: LoadBalancer
+
+containerd:
+  enabled: true
+  path: /var/run/containerd/containerd.sock
